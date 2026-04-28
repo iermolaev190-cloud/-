@@ -2,7 +2,7 @@
   "build": {
     "builder": "NIXPACKS"
   },
-  "start": {
-    "cmd": "python change_name.py"
+  "deploy": {
+    "startCommand": "python change_name.py"
   }
 }
