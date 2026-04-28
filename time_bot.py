@@ -44,5 +44,5 @@ async def main():
         await asyncio.sleep(60)  # Ждём 60 секунд
         await update_name()
 
-if __name__ '__main__':
+if __name__ == '__main__':
     asyncio.run(main())
